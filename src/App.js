@@ -62,7 +62,7 @@ function App() {
 
 
       <Routes>
-        <Route path='/main' element={<Main filteritem={filteritem} uniquelist={uniquelist} mainData={mainData} onAdd={onAdd} />} />
+        <Route path='/' element={<Main filteritem={filteritem} uniquelist={uniquelist} mainData={mainData} onAdd={onAdd} />} />
         <Route path='/categories' element={<Categories filteritem={filteritem} uniquelist={uniquelist} />} />
         {/* change kia hai card to cart Components se */}
         <Route path='/cart' element={<Cart />} />
