@@ -166,7 +166,7 @@ export default function Navbar({ CartCount, cartItems }) {
                             <div className="cartText">
                                 <p className='cartItemName'>{val.name}</p>
                                 <p className='quantity'>Qty : {val.qty}</p>
-                                <p className='cartItemPrice'>{val.prNew}</p>
+                                <p className='cartItemPrice'>$ {val.prNew}</p>
                                 <p className='cartItemColor'>Color : White</p>
                                 <p className='cartItemSize'>Size : x</p>
 
