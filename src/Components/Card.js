@@ -58,8 +58,6 @@ export default function Card({ mainData, onAdd }) {
                                             </div>
                                         </div>
 
-
-
                                     </div>
 
                                 </div>
